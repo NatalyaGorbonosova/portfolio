@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.90377a66.css",
+    "main.js": "/portfolio/static/js/main.54efa260.js",
+    "static/media/site_store_main.png": "/portfolio/static/media/site_store_main.bde09348c54d9966c0b8.png",
+    "static/media/site_3.png": "/portfolio/static/media/site_3.8de49b0dfa43c1bda899.png",
+    "static/media/site.png": "/portfolio/static/media/site.a23d6efc365f86fe5ad6.png",
+    "static/media/site_store_catalog.png": "/portfolio/static/media/site_store_catalog.26d148e31eb9cdc2a78c.png",
+    "static/media/site_2.png": "/portfolio/static/media/site_2.c48d598d99de93b78a92.png",
+    "static/media/site_store_cart.png": "/portfolio/static/media/site_store_cart.70681bfd2e136094aada.png",
+    "static/media/tuter_app_srudent.png": "/portfolio/static/media/tuter_app_srudent.c15a7d4f14035293e1d5.png",
+    "static/media/site_store_registration.png": "/portfolio/static/media/site_store_registration.078a18d903f4039e3ba1.png",
+    "static/media/tuter_app.png": "/portfolio/static/media/tuter_app.9cd3c2b40e957ce60e5a.png",
+    "static/media/tuter_app_add.png": "/portfolio/static/media/tuter_app_add.a9f75827c080db06d810.png",
+    "static/media/site_4.png": "/portfolio/static/media/site_4.4e1af474a7399e1bc12f.png",
+    "static/media/link_icon.svg": "/portfolio/static/media/link_icon.f095b14c888141da8a6d4220f05c3f05.svg",
+    "static/media/github_icon.svg": "/portfolio/static/media/github_icon.ab66988c5acda2bfcb56cd54a311a7e0.svg",
+    "index.html": "/portfolio/index.html",
+    "main.90377a66.css.map": "/portfolio/static/css/main.90377a66.css.map",
+    "main.54efa260.js.map": "/portfolio/static/js/main.54efa260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90377a66.css",
+    "static/js/main.54efa260.js"
+  ]
+}
