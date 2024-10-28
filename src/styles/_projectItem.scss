@@ -1,3 +1,9 @@
+a:hover, .link_icon:hover  {
+    color: $colorOther;
+    fill: $colorOther;
+}
+
+
 .project {
     display: grid;
     grid-template-columns: 45% 45%;
@@ -24,6 +30,11 @@
         height: 340px;
         padding: 2%;
         background-color: $colorDarkLight;
+        transition: 0.3s;
+    }
+
+    &__img:hover {
+        transform: scale(1.1);
     }
 
     &__links {
@@ -32,13 +43,14 @@
         gap: 2%;
         align-items: center;
         flex-wrap: wrap;
-        
+        margin-top: 12px;
     }
 
     &__links a {
         display: flex;
         gap: 4px;
     }
+
 
     &__right {
         padding: 2%;

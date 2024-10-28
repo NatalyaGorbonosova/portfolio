@@ -1,6 +1,6 @@
 import React from 'react';
-import link_icon from '../icons/link_icon.svg';
-import github_icon from '../icons/github_icon.svg';
+import {ReactComponent as LinkIcon} from '../icons/link_icon.svg';
+import {ReactComponent as GithubIcon} from '../icons/github_icon.svg';
 
 const ProjectItem = ({ id, title, description, images, stack, link, linkGithub}) => {
   return (
@@ -9,8 +9,14 @@ const ProjectItem = ({ id, title, description, images, stack, link, linkGithub})
           <img className='project__img' src={images[0]} alt='photo project'></img>
             
             <div className='project__links'>
-                <a href={link} target='_blank'> <img src={link_icon} alt='link' className='link_icon'></img>Ссылка на сайт</a>
-                <a href={linkGithub} target='_blank'><img src={github_icon} alt='github' className='link_icon'></img>Ссылка на Github</a>
+                <a href={link} target='_blank'> 
+                  <LinkIcon className='link_icon'/>
+                   Ссылка на сайт
+                </a>
+                <a href={linkGithub} target='_blank'>
+                  <GithubIcon className='link_icon'/>
+                  Ссылка на Github
+                </a>
             </div>
         </div>
         <div className='project__right'>

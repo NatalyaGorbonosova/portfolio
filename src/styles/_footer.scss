@@ -1,0 +1,30 @@
+.footer {
+    background-color: $colorDarkLight;
+    color: $colorTextDark;
+    padding: 12px 16px;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left {
+        display: flex;
+        gap: 3%;
+        align-items: center;
+    }
+    &__left:hover p{
+        color: $colorOther;
+    }
+    &__icon:hover {
+        fill: $colorOther;
+    }
+
+    &__icon:hover path{
+        fill: $colorOther;
+    }
+
+    &__right {
+        display: flex;
+        gap: 5%;
+    }
+}
